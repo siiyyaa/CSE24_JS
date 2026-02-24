@@ -38,9 +38,26 @@ else{
  
 /*javaScript Operators
 arithmetic operator: +, -, *, /(quotient), %(remainder), ++, --
+
 comparison operator: ==, ===, !=, !==, >, <, >=, <=
+
 = assign value,== compares values only, === compares values and type, != compares values only, !== compares values and type
-logical operator: &&, ||, !
+
+logical operator: &&, ||, ! 
+all the non zero value is considered as true and zero is considered as false in logical operator
+
 assignment operator: =, +=, -=, *=, /=, %=
+
 ternary operator: condition ? expression1 : expression2*/
+
+
+
+//unary operator
+let a=2;
+a++;
+console.log(a);
+a=a+1;
+console.log(a);
+a+1;
+console.log(a);
 
