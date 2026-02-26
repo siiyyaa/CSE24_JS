@@ -1,9 +1,25 @@
-
+//undefined==null(true),undefined===null(false)
 var num=10;
 console.log(num);
 console.log(typeof(num));
+
 num=false;
+console.log(num);
 console.log(typeof(num));
+
+num="hello";
+console.log(num);
+console.log(typeof(num));
+
+num=null;
+console.log(num); 
+console.log(typeof(num));//object is a bug in js but it is not an object it is a primitive value that represents the absence of any object value
+
+num=undefined;
+console.log(num);
+console.log(typeof(num));//undefined is a primitive value that is automatically assigned to variables that have just been declared, or to formal arguments for which there are no actual arguments, or to object properties that do not exist. It is also the value of the global variable undefined.
+
+
 
 //function
 var sayhello=function(){
